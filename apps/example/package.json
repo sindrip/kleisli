@@ -1,0 +1,14 @@
+{
+  "name": "@httper/example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-strip-types src/server.ts"
+  },
+  "dependencies": {
+    "@httper/http": "workspace:*",
+    "@httper/result": "workspace:*",
+    "@httper/schema": "workspace:*"
+  }
+}

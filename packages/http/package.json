@@ -1,0 +1,14 @@
+{
+  "name": "@httper/http",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@httper/arrow": "workspace:*",
+    "@httper/option": "workspace:*",
+    "@httper/schema": "workspace:*",
+    "@httper/result": "workspace:*"
+  }
+}
